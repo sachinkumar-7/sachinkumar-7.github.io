@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>My-Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="sm-d-flex flex-column">
+
+      <div class="profile">
+        <img src="../assets/my_image.png" alt="" class="img-fluid">
+        <h1 class="text-light"><a routerLink="">Sachin Kumar</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="#" class="twitter"></a>
+          <a href="#" class="facebook"></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a routerLink="">Home</a></li>
+          <li><a  routerLink="/about"> <span>About</span></a></li>
+          <li><a  routerLink="/resume"><span>Resume</span></a></li>
+          <li><a  routerLink="/services"><span>Services</span></a></li>
+          <li><a  routerLink="/portfolio"><span>Portfolio</span></a></li>
+          <li><a  routerLink="/contact"><span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+  
+  <main id="main" class="mt-5">
+    <router-outlet></router-outlet>
+  </main><!-- End #main -->
+
+</body>
+
+</html>
